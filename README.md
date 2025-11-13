@@ -1,5 +1,6 @@
 # GitHub Profile Scraper
 
+
 A full-stack web application that scrapes GitHub profiles and displays user information along with their repositories. Built with React, TailwindCSS, and FastAPI.
 
 ## Features
@@ -12,6 +13,13 @@ A full-stack web application that scrapes GitHub profiles and displays user info
 - 📄 Download profile data as PDF
 - 🧹 Clear results with one click
 - 🎨 Modern, responsive UI with TailwindCSS
+
+<p align="center">
+  <img src="ss/1.png" alt="screenshot 1" width="220" />
+  <img src="ss/2.png" alt="screenshot 2" width="220" />
+  <img src="ss/3.png" alt="screenshot 3" width="220" />
+  <img src="ss/4.png" alt="screenshot 4" width="220" />
+</p>
 
 ## Tech Stack
 
