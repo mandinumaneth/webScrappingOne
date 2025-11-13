@@ -332,29 +332,5 @@ Content-Type: application/json
 
 **Response:** PDF file (application/pdf)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-**Mandinuma Neth**
-
-- GitHub: [@mandinumaneth](https://github.com/mandinumaneth)
-- Repository: [webScrappingOne](https://github.com/mandinumaneth/webScrappingOne)
-
-## 🙏 Acknowledgments
-
-- GitHub for providing public profile data
-- FastAPI for the excellent web framework
-- React and Vite for modern frontend development
-- TailwindCSS for beautiful styling
-- ReportLab for PDF generation capabilities
 
 ---
-
-**Note**: This application only accesses publicly available GitHub data. It does not require authentication or access private repositories.
