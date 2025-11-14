@@ -161,44 +161,7 @@ Frontend runs on: `http://localhost:5173`
 
 1. Click "Clear Results" to reset the application
 2. Profile, repositories, and search input will all be cleared
-
-## 🎨 Design Features
-
-### Profile Card
-
-- **Layout**: Vertical, center-aligned
-- **Components**:
-  - Profile image (96px × 96px, circular)
-  - Name (bold, large)
-  - Username (clickable link to GitHub)
-  - Bio (if available)
-  - Location, company, email with icons
-
-### Repository Table
-
-- **Columns**: Repository, Language, Last Updated
-- **Features**:
-  - Clickable repository names
-  - Color-coded languages
-  - Formatted dates
-  - Hover effects
-
-### Modal
-
-- **Header**: Light blue background with:
-  - Repository name
-  - Last updated date/time
-  - GitHub link (top right)
-  - Close button (X)
-- **Body**: README content with prose styling
-- **Single scrollbar** for smooth navigation
-
-### Color Scheme
-
-- **Search Button**: Light blue (`bg-blue-100`)
-- **Download Button**: Light green (`bg-green-100`)
-- **Clear Button**: Light red (`bg-red-100`)
-- **Modal Header**: Light blue (`bg-blue-50`)
+3. 
 
 ## 🔧 Technical Implementation
 
