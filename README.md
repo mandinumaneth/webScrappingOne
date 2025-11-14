@@ -30,20 +30,18 @@ A full-stack web application that scrapes GitHub profiles and repositories, disp
 
 ### Backend
 
-- **FastAPI** (0.104.1) - Modern, fast web framework for building APIs
-- **Python** (3.13) - Core programming language
-- **BeautifulSoup4** (4.12.2) - HTML parsing and web scraping
-- **Requests** (2.31.0) - HTTP library for API calls and scraping
-- **ReportLab** (4.4.4) - PDF generation
-- **Markdown** (3.10) - Converting markdown to HTML
+- **FastAPI**  - Modern, fast web framework for building APIs
+- **Python**  - Core programming language
+- **BeautifulSoup4**  - HTML parsing and web scraping
+- **Requests**  - HTTP library for API calls and scraping
+- **ReportLab**  - PDF generation
+- **Markdown**  - Converting markdown to HTML
 - **Uvicorn** - ASGI server for running FastAPI
 
 ### Frontend
 
-- **React** (19.2.0) - UI library for building interactive interfaces
-- **Vite** (7.2.2) - Fast build tool and development server
-- **TailwindCSS** (3.4.18) - Utility-first CSS framework
-- **ESLint** - Code linting and quality
+- **React**  - UI library for building interactive interfaces
+- **TailwindCSS**  - Utility-first CSS framework
 
 ## 🏗️ Architecture
 
@@ -83,7 +81,7 @@ frontend/
 
 - Python 3.13 or higher
 - Node.js 18 or higher
-- npm or yarn
+- npm
 
 ### Installation
 
@@ -161,7 +159,6 @@ Frontend runs on: `http://localhost:5173`
 
 1. Click "Clear Results" to reset the application
 2. Profile, repositories, and search input will all be cleared
-3. 
 
 ## 🔧 Technical Implementation
 
@@ -180,12 +177,6 @@ Frontend runs on: `http://localhost:5173`
 - Key-based component reset for clearing search input
 - Conditional rendering based on data availability
 
-### Responsive Design
-
-- CSS Grid for two-column layout (3-column grid system)
-- Profile card: 1/3 width (lg:col-span-1)
-- Repository table: 2/3 width (lg:col-span-2)
-- Mobile: Stacks vertically (grid-cols-1)
 
 ### PDF Generation
 
@@ -194,21 +185,6 @@ Frontend runs on: `http://localhost:5173`
 - Includes all displayed profile information
 - Excludes followers/following, stars, forks, and descriptions
 
-## 🔐 Error Handling
-
-- **User Not Found**: Displays error message if GitHub user doesn't exist
-- **Network Errors**: Catches and displays connection issues
-- **README Loading**: Shows loading spinner and handles missing READMEs
-- **PDF Generation**: Alert on failure with error details
-
-## 🌟 Key Highlights
-
-- ✅ **Clean, Modern UI** - Minimalist design with TailwindCSS
-- ✅ **Fast Performance** - Vite for instant HMR, FastAPI for quick responses
-- ✅ **No External Database** - All data fetched on-demand
-- ✅ **Markdown Support** - Full README rendering with HTML conversion
-- ✅ **Professional PDFs** - High-quality report generation
-- ✅ **Mobile Friendly** - Responsive design works on all devices
 
 ## 📝 API Reference
 
