@@ -1,11 +1,5 @@
 # GitHub Profile Scraper
 
-<p align="center">
-  <img src="ss/1.png" alt="screenshot 1" width="220" />
-  <img src="ss/2.png" alt="screenshot 2" width="220" />
-  <img src="ss/3.png" alt="screenshot 3" width="220" />
-  <img src="ss/4.png" alt="screenshot 4" width="220" />
-</p>
 
 A full-stack web application that scrapes GitHub profiles and repositories, displays them in an elegant UI, and generates downloadable PDF reports.
 
@@ -25,24 +19,12 @@ A full-stack web application that scrapes GitHub profiles and repositories, disp
 - 🎨 **Responsive Design** - Beautiful, mobile-friendly interface built with TailwindCSS
 - 🔄 **Real-time Updates** - Instant data fetching and display
 
-### UI/UX Features
-
-- **Two-Column Layout**: Profile card on the left, repository table on the right
-- **Modal README Viewer**: Click repository names to view full README with HTML rendering
-- **Clean Profile Display**:
-  - Centered profile image
-  - Name and username vertically stacked
-  - Conditional bio display
-  - Location, company, and email information
-- **Interactive Repository Table**:
-  - Repository name (clickable)
-  - Programming language
-  - Last updated date with time
-- **Action Buttons**:
-  - Download PDF (light green)
-  - Clear Results (light red)
-  - Search (light blue)
-- **Auto-clear Search**: Search input resets when clearing results
+<p align="center">
+  <img src="ss/1.png" alt="screenshot 1" width="220" />
+  <img src="ss/2.png" alt="screenshot 2" width="220" />
+  <img src="ss/3.png" alt="screenshot 3" width="220" />
+  <img src="ss/4.png" alt="screenshot 4" width="220" />
+</p>
 
 ## 🛠️ Technologies Used
 
